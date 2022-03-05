@@ -1,0 +1,181 @@
+body {
+  font-family: "Montserrat";
+  }
+
+#title {
+  background-color: #8A39E1;
+  color: #fff;
+  text-align: left;
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+h1 {
+  font-family: "Montserrat";
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  margin: auto;
+  }
+
+h2 {
+  font-family: "Montserrat";
+  font-weight: 900;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+h3 {
+  font-family: "Montserrat";
+  font-weight: 900;
+}
+
+p{
+  font-family: "Montserrat";
+  font-weight: 900;
+}
+
+.title-p{
+  font-family: "Montserrat";
+  font-weight: 900;
+  color: #fff;
+}
+
+.cta-1 {
+  font-family: "Montserrat";
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5
+}
+
+/* Navigation Bar */
+.navbar {
+  padding-bottom: 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+
+/* Dounload Buttons */
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* Title Image */
+.title-image {
+  width: 80%;
+  /* rotate the image by degree we need */
+
+  right: 10%;
+}
+
+/* Features */
+#feature {
+  padding: 7% 15%;
+  background-color: white;
+  position: relative;
+  z-index: 1;
+}
+
+.feature-box {
+  text-align: center;
+  padding: 4.5%
+}
+
+p {
+  color: #8F8F8F;
+}
+
+.fa-solid {
+  color: #ef8172;
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+/* when need icon to change color */
+.fa-solid:hover {
+  color: #ff4c68
+}
+
+/* Testimonial Section */
+#team {
+  text-align: center;
+  background-color: #9C51E0;
+  color: #fff;
+}
+
+.team-image {
+  width: 20%;
+  /* below statement make the image round */
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  ;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing */
+#Services {
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-col {
+  padding: 3% 2%;
+}
+
+/* to make the size of website more freindly with mobile or tablet */
+@media (max-width:1028px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+/* call to action section */
+#cta {
+  background-color: #8A39E1;
+  color: #fff;
+  text-align: center;
+
+}
+
+/* bottom section */
+#footer{
+  text-align: center;
+}
+
+.footer-image{
+  margin: 0 20px 0 20px;
+}
